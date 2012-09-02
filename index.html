@@ -2,61 +2,90 @@
 <html>
   <head>
     <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">      
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
-    <title>Яндекс ШРИ by ProstoA</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" media="screen" />
+    <style>
+        footer { text-align: center; }
+    </style>
+    <script src="javascripts/modernizr.js"></script>
+    <title>Анкета - Яндекс ШРИ</title>
   </head>
-
   <body>
-
     <header>
       <div class="container">
-        <h1>Яндекс ШРИ</h1>
-        <h2>http://events.yandex.ru/events/shri/</h2>
-
-        <section id="downloads">
-          <a href="https://github.com/ProstoA/Shri/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/ProstoA/Shri/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/ProstoA/Shri" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
+        <h1>Анкета</h1>
+        <h2>Школа разработки интерфейсов</h2>
       </div>
     </header>
-
     <div class="container">
-      <section id="main_content">
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    
+        <section id="main_content" class="carousel slide">
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+                <div class="active item">
+                    <h3>Общие вопросы</h3>
+                    <ul>
+                        <li>ФИО: <strong>Ибрагимов Альберт Вячеславович</strong></li>
+                        <li>Электропочта: <strong>а@хххххх-а.ru</strong></li>
+                        <li>Телефон: <strong> +79ххххх2211</strong></li>
+                        <li>Год рождения: <strong> 19хх</strong></li>
+                        <li>Локация: <strong>МСК</strong></li>
+                        <li>Бумажка: <strong>230101 КГТУ им А.Н.Туполева, 2013</strong></li>
+                        <li>Тарабарщина: <strong>read-only</strong></li>
+                        <li>Откуда вы о нас узнали? <strong>Я.Субботник</strong></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Опыт разработки</h3>
+                    <ul>
+                        <li>Front-end: <strong>HTML, JS, jQuery, Twitter Bootstrap</strong></li>
+                        <li>Back-end: <strong>C#, C++, Python</strong></li>
+                        <li>Tools: <strong>VS, WebShtorm, Notepad++</strong></li>
+                        <li>OS: <strong>Win, Debian</strong></li>
+                        <li>VCS: <strong>Mercurial, Git, TFS, SVN</strong></li>
+                        <li>Task Tracer: <strong>JIRA, Redmine, TFS, TP</strong></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Чего я жду от участия в Школе</h3>
+                    <ul>
+                        <li>Систематизировать и углубить знания</li>
+                        <li>Познакомиться и пообщаться с интересными людьми</li>
+                        <li>Посмотреть как устроен Яндекс изнутри</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Инструменты и приёмы для отладки кода в разных браузерах</h3>
+                    <p>Firebug, Vendor Dev Tools, Fiddler</p>
+                    <pre>console.log<br/>debugger<br/>alert</pre>
+                </div>
+                <div class="item">
+                    <h3>Что происходит в браузерах при клике на ссылку yandex.ru</h3>
+                    <p>Браузер резолвит доменное и отправляет GET запрос серверу Яндекса</p>
+                    <p>Сервер Яндекса роется в своих закромах и выдает запрашиваемый контент</p>
+                    <p>Радосный Браузер получает ответ от сервера, загружает код страницы и начинает тащить все в ДОМ :) По дороге, встречая, скрипты и стили блокирует свою работу и грузит их
+                    <p>Когда ДОМ готов, страница рендерится и начинают грузиться картинки и асинхронные скрипты</p>                       
+                    </p>
+                </div>
+            </div>    
+             <!-- Carousel nav -->
+            <a class="carousel-control left" href="#main_content" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#main_content" data-slide="next">&rsaquo;</a>        
+        </section>
+    </div>    
+    <footer>
+        <a href="https://github.com/ProstoA/Shri/tree/gh-pages" target="_blank" class="btn btn-github"><span class="icon"></span>GitHub</a>
+    </footer>
+    <script src="javascripts/jquery-1.7.2.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('.carousel').carousel({
+                interval: 5000,
+                pause: "hover"
+            });
+        })
+    </script>
   </body>
 </html>
